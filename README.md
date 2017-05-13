@@ -1,0 +1,1 @@
+A prototype for a Google-esque homepage. I created this to brush up on my HTML/CSS skills.
