@@ -1,1 +1,1 @@
-A prototype for a Google-esque homepage. I created this to brush up on my HTML/CSS skills.
+A website layout for a Google-esque homepage. The webpage mimics the look of Google's main page but doesn't have all of the functionality. I created this to brush up on my HTML/CSS skills.

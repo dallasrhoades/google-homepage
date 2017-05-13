@@ -6,13 +6,14 @@
 .main {
 	display: block;
 	text-align: center;
-	margin: 200px auto;
+	margin-top: 200px;
 	clear: both;
 }
 
 #logo {
 	text-align: center;
 	width: 272;
+	height: 100px;
 }
 
 .search {
@@ -20,11 +21,19 @@
 	border: none;
 	padding: 0;
 	margin-top: 20px;
+	position: relative;
 }
 
+
 .search input {
-	width: 20%;
+	width: 575px;
+	height: 40px;
 	font-family: sans-serif;
+}
+
+.search input:hover {
+	border: 2px solid #DFDFDF;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
 }
 /*#signin {
 	background-color: #4484F0;
@@ -35,7 +44,28 @@
 	padding-right: 14px;
 }*/
 
-.navbar ul {
+.button {
+	display: block;
+	text-align: center;
+	position: relative;
+	margin-top: 15px;
+}
+
+.button #search, .button #lucky {
+	padding: 5px 10px;
+	background-color: #F2F2F3;
+	border: 1px solid #F2F2F3;
+	margin-top: 15px;
+    margin-right: 15px;
+}
+
+
+
+#search:hover, #lucky:hover {
+	border: 1px solid black;
+}
+
+.navbar ul, .footer ul {
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
@@ -47,11 +77,42 @@
 	padding: 10px;
 }
 
-.navbar a {
+.navbar a, .footer a {
 	text-decoration: none;
 	color: #444444;
 }
 
-.navbar a:hover {
+.navbar a:hover, .footer a:hover {
 	text-decoration: underline;
 }
+
+.footer {
+	width: 100%;
+	position: fixed;
+	background: #f2f2f2;
+	bottom: 0;
+	border-top: 1px solid #e4e4e4;
+
+}
+
+.left_footer {
+	display: inline-block;
+	float: left;
+	margin-left: 2%;
+	left: 10px;
+	bottom: 15px;
+}
+
+.right_footer {
+	display: inline;
+	float: right;
+	margin-right: 2%;
+	right: 10px;
+	bottom: 15px;
+}
+
+.footer li {
+	display: inline-block;
+	padding: 8px;
+}
+
